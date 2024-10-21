@@ -12,6 +12,8 @@
 }
 body {
     background-color: #041821;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -92,7 +94,6 @@ body .titre .portrait {
     .titre h2 {
         font-size: 60%;
         font-weight: 600;
-
     }
 }
 .images {
@@ -111,7 +112,7 @@ body .titre .portrait {
 }
 
 footer {
-    margin-top: 10%;
+    margin-top: 7%;
     color : grey;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;

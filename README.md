@@ -1,10 +1,10 @@
-# TP Fil rouge
+# TP1 - R109
 ## Foreau Hippolyte
-📝Lien du projet : https://valkhel.github.io/projet_fil_rouge_r109/
+📝<color=red>Lien du projet</color> : https://valkhel.github.io/projet_fil_rouge_r109/
 
 # Description du projet:
 
-Le projet qui a mené à l'aboutissement de ce site web, est la **reproduction d'une fidèle d'une maquette** (capture d'écran du site
+Le projet qui a mené à l'aboutissement de ce site web, est la **reproduction d'une fidèle d'une maquette** (capture d'écran du site)
 
 Certaines contraintes et aides ont été donné :
 - La réalisation doit être conforme aux normes du W3C pour le HTML et le CSS

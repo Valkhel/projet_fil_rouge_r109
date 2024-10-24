@@ -11,55 +11,123 @@
   font-style: normal;
 }
 body {
-    background-color: black;
+    background-color: #041821;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #c8ccd0;
 }
 
 header .div1 {
     color : white;
     font-family: "Yeseva One", serif;
     font-size: 150%;
+    
 }
+
 header .div1 .cyan {
-    color : cyan;
+    color : #1ad69a;
     font-family: "Yeseva One", serif;
     font-size: 150%;
+}
+
+.icons i {
+    margin-left: 15px;
 }
 
 h1 {
     color : white;
     font-family: "Yeseva One", serif;
     font-size: 300%;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 5%;
+    max-width: 60%;
+    word-wrap: break-word;
 }
+
 h1 .cyan {
-    color : cyan;
+    color : #1ad69a;
 }
-body .nav1 .h2_1 {
-    color : white;
+
+body .div2 .h2_1 {
+    color : #c8ccd0;
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 100%;
+    margin-left: 5%;
+    word-wrap: break-word;
+    max-width: 60%;
 }
 
-footer .footer1 {
-    color : white;
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.titre h2 {
+    color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 80%;
-}
-
-footer .footer2 {
-    color : white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 60%;
-}
-body .titre {
-    color : white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 80%;
+    margin-block: 5%;
+    margin-left: 3%;
+    letter-spacing: 7px;
 }
 
 body .titre .portrait {
-    background-color: aqua;
+    background-color: #1ad69a;
+    border: 5px solid #1ad69a;
+}
+
+@media (max-width: 800px) {
+    .titre h2 {
+        font-size: 60%;
+        font-weight: 600;
+
+    }
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.images img {
+    width: 100%; 
+    height: 100%;
+}
+
+footer {
+    margin-top: 10%;
+    color : grey;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+footer .footer1 {
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer2 {
+    font-size: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }

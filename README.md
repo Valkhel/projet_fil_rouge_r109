@@ -1,6 +1,6 @@
 # TP1 - R109
 ## Foreau Hippolyte
-📝<color=red>Lien du projet</color> : https://valkhel.github.io/projet_fil_rouge_r109/
+📝[Lien du projet](https://valkhel.github.io/projet_fil_rouge_r109/)
 
 # Description du projet:
 
@@ -13,4 +13,4 @@ Certaines contraintes et aides ont été donné :
 - Utiliser l'API de Google Fonts (en respectant les polices de la maquette)
 - Utiliser des icônes grâce à Font Awesome
 - Configurer les images aléatoirement avec Lorem Picsum
-- Utiliser FlexBox et/ou Grid dans le code CSS
+- Utiliser FlexBox et/ou Grid dans le code CSS 😉

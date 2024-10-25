@@ -164,7 +164,7 @@ body .titre .portrait {
     border: 5px solid #1ad69a;
 }
 
-/* Aligner les titres sur écran de téléphone*/
+/* Aligner les titres sur écran de téléphone (fonctionne sur VSCODE mais pas sur le site github ?)*/
 
 @media (max-width: 767px) {
     .titre h2 {

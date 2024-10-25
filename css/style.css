@@ -8,7 +8,6 @@
 
 .montserrat-leplusbeau {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
@@ -124,8 +123,7 @@ body .div2 .h2_1 {
 
 @media (max-width: 767px) {
     body .div2 .h2_1 {
-        font-size: 65%;
-        word-wrap: ali;
+        font-size: 65%
     }
 }
 
@@ -164,7 +162,7 @@ body .titre .portrait {
     border: 5px solid #1ad69a;
 }
 
-/* Aligner les titres sur écran de téléphone (fonctionne sur VSCODE mais pas sur le site github ?)*/
+/* Aligner les titres sur écran de téléphone */
 
 @media (max-width: 767px) {
     .titre h2 {

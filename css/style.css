@@ -1,3 +1,5 @@
+/*Insertion de l'API pour les polices d'écriture du site*/
+
 .yeseva-one-regular {
     font-family: "Yeseva One", serif;
     font-weight: 400;
@@ -10,11 +12,22 @@
   font-weight: 100;
   font-style: normal;
 }
+
+/*Respect des normes et couleur de fond du site*/
+
 body {
     background-color: #041821;
     margin: 0;
     padding: 0;
 }
+
+/*Définition de la couleur "cyan"*/
+
+.cyan {
+    color : #1ad69a;
+}
+
+/*En-tête du site*/
 
 header {
     display: flex;
@@ -30,6 +43,14 @@ header .div1 {
     font-size: 150%;
     
 }
+
+header .div1 .cyan {
+    font-family: "Yeseva One", serif;
+    font-size: 150%;
+}
+
+/*En-tête du site pour téléphone */
+
 @media (max-width: 767px) {
     header {
         font-size: 60%;
@@ -38,24 +59,28 @@ header .div1 {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        border-bottom: 1.5px solid #c8ccd0;
+
     }
 
 }
 
-header .div1 .cyan {
-    color : #1ad69a;
-    font-family: "Yeseva One", serif;
-    font-size: 150%;
-}
+/*Icônes imposés*/
 
 .icons i {
     margin-left: 15px;
 }
+
+/*En-tête du site pour téléphone*/
+
 @media (max-width: 767px) {
     header .div1 {
         margin-left: 6%;
     }
 }
+
+/*Titre de la page*/
+
 h1 {
     color : white;
     font-family: "Yeseva One", serif;
@@ -69,20 +94,22 @@ h1 {
     word-wrap: break-word;
 }
 
+/*Titre de la page pour téléphone*/
+
 @media (min-width: 992px) {
     h1 {
         max-width: 60%;
     }
 }
 
-h1 .cyan {
-    color : #1ad69a;
-}
 @media (max-width: 767px) {
     h1 {
         font-size: 120%;
     }
 }
+
+/*Corps de texte*/
+
 body .div2 .h2_1 {
     color : #c8ccd0;
     font-family: "Montserrat", sans-serif;
@@ -92,6 +119,9 @@ body .div2 .h2_1 {
     word-wrap: break-word;
     max-width: 100%;
 }
+
+/*Corps de texte pour téléphone*/
+
 @media (max-width: 767px) {
     body .div2 .h2_1 {
         font-size: 65%;
@@ -104,6 +134,9 @@ body .div2 .h2_1 {
         max-width: 60%;
     }
 }
+
+/*Titre des sections*/
+
 .titre {
     display: flex;
     justify-content: center;
@@ -124,26 +157,32 @@ body .div2 .h2_1 {
     justify-content: center;
 }
 
+/*Définition du titre "Portrait"*/
+
 body .titre .portrait {
     background-color: #1ad69a;
     border: 5px solid #1ad69a;
 }
+
+/* Aligner les titres sur écran de téléphone*/
+
 @media (max-width: 767px) {
     .titre h2 {
         font-size: 60%;
-        font-weight: 600;
-        margin: 5px;
+        font-weight: 400;
+        letter-spacing: 2px;
     }
     .titre {
         display: flex;
-        justify-content: center; 
-        flex-wrap: wrap; 
-    }
-    .titre h2 {
-        flex: 1 1 auto;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap; 
+        gap: 5px;
     }
 }
+
+
+/*Disposition des images*/
 
 .images {
     display: grid;
@@ -160,6 +199,8 @@ body .titre .portrait {
     height: 100%;
 }
 
+/*Disposition des images sur téléphone et tablette (seulement 9)*/
+
 @media (max-width: 992px) {
     .images img:nth-child(n+10) {
         display: none;
@@ -171,6 +212,8 @@ body .titre .portrait {
         gap: 10px;
     }
 }
+
+/*Bas de page*/
 
 footer {
     margin-top: 7%;
